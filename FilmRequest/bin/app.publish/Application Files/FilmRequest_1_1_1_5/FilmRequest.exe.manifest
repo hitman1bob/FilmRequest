@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.1.1.5" name="FilmRequest.exe" publicKeyToken="113e6e6017f2a6b5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="folder-movie.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FilmRequest" version="1.0.3882.12022" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FilmRequest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FilmRequest.exe" size="124416">
+      <assemblyIdentity name="FilmRequest" version="1.0.3882.12022" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VX7os9ldAsKCons1Jzp5ASM7ZtA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FilmRequest.exe.config" size="3285">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ULtVFQvLlrHWA57e4E7pWkIAMkU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="folder-movie.ico" size="97566">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VSN0PDb8wKsm0o3hqCJa0Yt4OoQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LEVIATHAN\btownsend" issuerKeyHash="c9e46392b828f7d460564ecff7f15b7a3b73c854" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7BFDRylyQG5TaY1Fq/QFaVSa7xI=</DigestValue></Reference></SignedInfo><SignatureValue>NqsOy8a4X3xjb/uiBwn12ejImN2eAeHwDw6/FHaOOH7X6WI9pES5r2ImKWHTalDOKIoCiHcm9OSYjaJ/Egbe5SzVNvBWjYrfyO7uN5DVgsCiwDhsVDeDAa+sshjFY1rTcbOmm6yMJk/U5omCOf9dXhHgk630gq50yicjTZ4vKN8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oe4vqUfimW2HMlX6jS3M0b5iU5rYZbrYIukWwRsLaCZdKa9WHqlSOPZUIwS2bXNlIJrF12bKmUOP1NouRU6z7+o1w13JQBdslX82o2jKvQ7tM3sVncTVr0BwNhC+4kXdWtMLeKukGa5ca7QZtNvGwlK8u/s+xxaSv61fSyDVPY8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="12ef9a546905f4ab458d69536e407229474311ec" Description="" Url=""><as:assemblyIdentity version="1.1.1.5" name="FilmRequest.exe" publicKeyToken="113e6e6017f2a6b5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LEVIATHAN\btownsend</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nEpAC/hIgZ+Z1bWGAlmCKatCl00=</DigestValue></Reference></SignedInfo><SignatureValue>YZXRg0HaP6MzhKXRbWNVepJhC+wCY6hMPx9DWKL0/2Zy+qMYRRhLEKrpaoWYucY9cJxTtvQEtIXVMO7iTDpgjKlNV5dJ3F6oYp4D8lEAw87ASv+KVeL9BEeaoF0iDX9yCWwFvlIDVkXvcTQ3jh7in6c7NznqwOr3OO77ltYVxT0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oe4vqUfimW2HMlX6jS3M0b5iU5rYZbrYIukWwRsLaCZdKa9WHqlSOPZUIwS2bXNlIJrF12bKmUOP1NouRU6z7+o1w13JQBdslX82o2jKvQ7tM3sVncTVr0BwNhC+4kXdWtMLeKukGa5ca7QZtNvGwlK8u/s+xxaSv61fSyDVPY8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQHgENz2r1W7FMmiqRDVhkBTAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBMAEUAVgBJAEEAVABIAEEATgBcAGIAdABvAHcAbgBzAGUAbgBkMB4XDTEwMDMxMjIyMzI1OFoXDTExMDMxMzA0MzI1OFowMTEvMC0GA1UEAx4mAEwARQBWAEkAQQBUAEgAQQBOAFwAYgB0AG8AdwBuAHMAZQBuAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKHuL6lH4plthzJV+o0tzNG+YlOa2GW62CLpFsEbC2gmXSmvVh6pUjj2VCMEtm1zZSCaxddmyplDj9TaLkVOs+/qNcNdyUAXbJV/NqNoyr0O7TN7FZ3E1a9AcDYQvuJF3VrTC3irpBmuXGu0GbTbxsJSvLv7PscWkr+tX0sg1T2PAgMBAAEwCQYFKw4DAh0FAAOBgQANVqBk2PRBiZU4o3NKExF6GyOJCVAQlB2AUaPsz2xPw13ASwUEqX8/PeKuUXUJyhvGq15wKrvNgnY+El87OY//+5Ko2KmEZ2YFMR39/2vkBNILVKJgo8jL6rC1gE5XmoanRSVXrWPCdma+/jPFY9PgPLMVg0Injjq2/cNglkR7vw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

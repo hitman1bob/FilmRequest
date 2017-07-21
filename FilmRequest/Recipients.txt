@@ -1,0 +1,1 @@
+<add key="Recipients" value="qdo@speedycircuits.com, rjones@speedycircuits.com, tgong@speedycircuits.com, bmeyer@speedycircuits.com, evannattan@speedycircuits.com"/>

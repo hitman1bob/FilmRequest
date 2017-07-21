@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FilmRequest
+</name>
+</assembly>
+<members>
+<member name="M:FilmRequest.MailHelper.SendMailMessage(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Sends an mail message
+ </summary>
+	<param name="smtpserver">SMTP Server</param>
+	<param name="from">Sender address</param>
+	<param name="recipients">Recepient address</param>
+	<param name="bcc">Bcc recepient</param>
+	<param name="cc">Cc recepient</param>
+	<param name="subject">Subject of mail message</param>
+	<param name="body">Body of mail message</param>
+</member>
+</members>
+</doc>

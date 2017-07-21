@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FilmRequest", "FilmRequest\FilmRequest.vbproj", "{F11F6951-931B-4E3E-BC65-3A74C7D7EA2D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {33773D54-64B0-494A-B2C3-1F0EF611FF9B}
+		SccProjectUniqueName1 = FilmRequest\\FilmRequest.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = FilmRequest\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F11F6951-931B-4E3E-BC65-3A74C7D7EA2D}.Debug.ActiveCfg = Debug|.NET
+		{F11F6951-931B-4E3E-BC65-3A74C7D7EA2D}.Debug.Build.0 = Debug|.NET
+		{F11F6951-931B-4E3E-BC65-3A74C7D7EA2D}.Release.ActiveCfg = Release|.NET
+		{F11F6951-931B-4E3E-BC65-3A74C7D7EA2D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

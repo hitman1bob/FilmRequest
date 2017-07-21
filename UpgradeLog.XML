@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FilmRequest">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\FilmRequest.sln">
+</Property><Property Name="Date" Value="Wednesday, May 27, 2009">
+</Property><Property Name="Time" Value="8:45 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FilmRequest.sln" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest.sln">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\FilmRequest.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\FilmRequest.vbproj">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\FilmRequest.vbproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\FilmRequest.vbproj.user">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\Form1.vb" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\Form1.vb">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\App.config" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\App.config">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\Recipients.txt" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\Recipients.txt">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\Form1.resx" Description="File successfully backed up as C:\Documents and Settings\btownsend\My Documents\Visual Studio 2008\Projects\FilmRequest\Backup1\FilmRequest\Form1.resx">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\FilmRequest.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FilmRequest" Source="FilmRequest\FilmRequest.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FilmRequest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FilmRequest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FilmRequest" Source="FilmRequest\FilmRequest.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
